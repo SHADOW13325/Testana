@@ -1,4 +1,4 @@
-# Automating the Examination System
+# TESTANA
 
 Conducting examination and answer sheet evaluation are hectic testing tools for assessing
 academic achievement, integration of ideas and ability to recall, but are expensive, resource
@@ -11,7 +11,7 @@ and web technologies to provide an inexpensive alternative to the current examin
 We implement a model to automatically generate questions with their respective answers and
 assess user responses.
 
-![Image](images/home.png)
+![Image](images/home.jpg)
 
 ## Prerequisites:
     | Flask 0.12 |
@@ -19,20 +19,16 @@ assess user responses.
     | Pandas 0.20 |
     | Textblob 0.10 |
     | NLTK 3.3 |
-    | Python 3.6 - Anaconda Python Distribution (Recommended)|
+    | Python 3.6 |
 
 ## Install Prerequisites:
 
-[How to install anaconda python distribution ?](https://docs.anaconda.com/anaconda/install/)
-
-Setup project environment. Assuming anaconda for python 3 is installed:
+Setup project environment:
 ```
     $ pip install -r REQUIREMENTS.txt
 ```
 
-NLTK, Numpy and Pandas comes pre-installed with anaconda python distribution. But any other dependencies will be handeled with the above command.
-
-To donwload NLTK text corpus, initiate the Python 3 environment. Run the following command:
+To download NLTK text corpus, initiate the Python 3 environment. Run the following command:
 ```
     >>> import nltk
     >>> nltk.download("all") # to download nltk corpus
@@ -41,10 +37,10 @@ To donwload NLTK text corpus, initiate the Python 3 environment. Run the followi
 ## To run the project:
 ```
 To download the project from github - open a terminal and run the following command:
-$ git clone https://github.com/nityansuman/automated-test-app/.git
+$ git clone https://github.com/SHADOW13325/Testana.git
 
 Now navigate to the root folder of the project from the same termianl:
-$ cd automated-test-app/
+$ cd Testana/
 
 Run the following command to execute the project:
 $ python runserver.py
@@ -52,18 +48,5 @@ $ python runserver.py
 
 Once run, it will generate a local url. Copy and paste the url in the web browser. Done!
 
-
-## Important Links:
-* [Natural Language Processing](https://nltk.org/book/)
-* [Git](https://git-scm.com/)
-* [Github](https://github.com/)
-* [NLTK](https://nltk.org/)
-* [Flask](http://flask.pocoo.org/)
-* [Web Development](https://w3schoo.com/)
-* [Python](https://python.org/)
-* [Anaconda Python Distribution](https://conda.io)
-
-
-Drop me a mail or connect with me on [Linkedin](https://linkedin.com/in/kumar-nityan-suman/) .
 
 If you like the work I do, show your appreciation by 'FORK', 'START', or 'SHARE'.
